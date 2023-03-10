@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-nsmr
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:rrPIt-devfile-sample-nsmr
+      - image: quay.io/redhat-appstudio/user-workload@sha256:67fe2b5a75ba8e86e3d9f59c7817ed65259545e9563d2739c97cc3cd10c412b7
         name: my-nodejs
         ports:
         - containerPort: 3001
